@@ -58,12 +58,16 @@
             .desaparace {
                 display: none;
             }
+            .chi{
+                flex-direction: column;
+            }
         }
         #mc_embed_signup {
             /*background: #fff;*/
             clear: left;
             font: 14px Helvetica, Arial, sans-serif;
         }
+        
 
     </style>
 
@@ -95,8 +99,8 @@
                                         <p class=""><a class="btn btn-outline-light" href=""> <i class="bi bi-whatsapp">
                                                 </i> Contáctanos </a></p>
                                     </div>
-                                    <div class="col">
-                                        <div>
+                                    <div class="col ">
+                                        <div class="desaparece">
                                             <!-- Begin Mailchimp Signup Form -->
                                             <div id="mc_embed_signup">
                                                 <form
@@ -186,13 +190,17 @@
                                                             aria-hidden="true"><input type="text"
                                                                 name="b_cc02e3ed6a9b3f5117355d840_b81262f4d7"
                                                                 tabindex="-1" value=""></div>
-                                                        <div class="clear"><input type="submit" value="Subscribe"
+                                                        <div class="clear text-center" ><input type="submit" value="Enviar"
                                                                 name="subscribe" id="mc-embedded-subscribe"
                                                                 class="button"></div>
                                                     </div>
                                                 </form>
                                             </div>
                                             <!--End mc_embed_signup-->
+                                        </div>
+                                        <div class="aparece">
+                                            <p class="mt-5 text-center" > <a class="btn btn-outline-light" href="#informacion"> Solicita información  </a></p>
+
                                         </div>
                                     </div>
                                 </div>
@@ -244,7 +252,12 @@
             </a>
         </div>
     </section>
-
+    <!--moviles-->
+    <section class="container-fluid aparece py-5" style="height: 800px;">
+        <div class="container py-5 " id="informacion"   >
+            <iframe src="formulario.html" frameborder="0" width="100%" scrolling="no"  height="600px" ></iframe>
+        </div>
+    </section>
 
 
     <!-- icono de whatsapp -->
