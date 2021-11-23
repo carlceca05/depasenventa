@@ -2,6 +2,7 @@
 .chi{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 
 }
 .logo{
@@ -378,16 +379,22 @@
     position: fixed;
     right: 20px;
     bottom: 30px;
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     z-index: 1000;
     
 }
 
 .appwhatsapp img{
-width: 70px;
+width: 60px;
 height: auto;
 }
+.appwhatsapp img:hover {
+    width: 70px;
+    height: auto;
+    
+    }
+    
 
 
 
